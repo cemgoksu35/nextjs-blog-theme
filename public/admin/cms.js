@@ -1,3 +1,3 @@
-import CMS from "/admin/netlify-cms.js";
+import CMS from "netlify-cms-app";
 
 CMS.init();
