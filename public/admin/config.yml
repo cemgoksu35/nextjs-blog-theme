@@ -1,10 +1,9 @@
 backend:
   name: auth0
-  domain: YOUR_AUTH0_DOMAIN
-  clientId: YOUR_AUTH0_CLIENT_ID
-  audience: YOUR_AUTH0_AUDIENCE
-  issuer: YOUR_AUTH0_ISSUER
-
+  domain: dev-0iep0wuai7auewi1.us.auth0.com
+  clientId: pv5qGo4yEXrWPdkTqT1vk9GfoyxA1d
+  audience: https://dev-0iep0wuai7auewi1.us.auth0.com/api/v2/
+  issuer: https://dev-0iep0wuai7auewi1.us.auth0.com/
 
 media_folder: "public/images"
 public_folder: "/images"
@@ -18,3 +17,4 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+
